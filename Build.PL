@@ -15,7 +15,7 @@ Module::Build->new
   dist_version_from => 'lib/GraphViz/DBI/FromSchema.pm',
   requires =>
   {
-    'GraphViz/DBI' => 0,
+    'GraphViz::DBI' => 0,
   },
   build_requires =>
   {

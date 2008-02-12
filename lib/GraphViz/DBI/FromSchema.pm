@@ -25,7 +25,7 @@ use strict;
 
 use base qw<GraphViz::DBI>;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 
 =head1 DESCRIPTION
@@ -128,6 +128,9 @@ So it may be worth creating a functional interface to hide this.
 
 It may further make sense to have a function which saves the diagram to a file
 as well, since that's likely to be what people want to do with it.
+
+And to save everybody who just wants to generate a diagram from having to write
+pretty same small program, there should be a utility which does that.
 
 =head1 CAVEATS
 
