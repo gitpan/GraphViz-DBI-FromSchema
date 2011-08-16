@@ -7,3 +7,8 @@
 == 0.02 ==
 
 * ooops: correctly declare dependency on GraphViz::DBI
+
+== 0.5 ==
+
+* Works with Postgres
+* schema_diagram command

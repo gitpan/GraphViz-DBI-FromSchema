@@ -16,6 +16,8 @@ Module::Build->new
   requires =>
   {
     'GraphViz::DBI' => 0,
+    'Getopt::Long' => 0,
+    'File::Temp' => 0,
   },
   build_requires =>
   {
